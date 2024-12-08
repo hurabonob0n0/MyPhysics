@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\private\Particle.cpp">
+      <Filter>01.Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Core.cpp">
+      <Filter>00.Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Public\Precision.h">
+      <Filter>98.Precision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Particle.h">
+      <Filter>01.Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Core.h">
+      <Filter>00.Core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Defines.h">
+      <Filter>99.Defines</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="99.Defines">
+      <UniqueIdentifier>{10f22c8a-1104-4dbe-842f-d843b9e9917f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Precision">
+      <UniqueIdentifier>{087b0fab-ccff-4fd2-9cec-253faab8e12c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00.Core">
+      <UniqueIdentifier>{e0d6a1b9-37a0-45f5-80e0-2fc8a39e9197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Particle">
+      <UniqueIdentifier>{bbc7f523-7cb9-4fa7-a614-fbdac813abd8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
